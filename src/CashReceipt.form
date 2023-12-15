@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="CashReceipt">
+  <grid id="27dc6" binding="panel1" custom-create="true" layout-manager="GridLayoutManager" row-count="7" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1040" height="359"/>
+    </constraints>
+    <properties>
+      <background color="-2568449"/>
+      <enabled value="false"/>
+      <foreground color="-1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="c1fcf" class="javax.swing.JLabel" binding="infoAboutNeedRegLabel" custom-create="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="16"/>
+          <text value="Проведите регистрацию магазина!"/>
+        </properties>
+      </component>
+      <component id="e49ac" class="javax.swing.JButton" binding="regCashierButton" custom-create="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="регистрация кассира"/>
+        </properties>
+      </component>
+      <component id="dfe20" class="javax.swing.JButton" binding="regCustomerButton" custom-create="true">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="регистрация клиентов"/>
+        </properties>
+      </component>
+      <component id="203ef" class="javax.swing.JLabel" binding="choiceEmployeeLabel" custom-create="true">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="14"/>
+          <text value="Выберите сотрудника"/>
+        </properties>
+      </component>
+      <component id="ae67a" class="javax.swing.JLabel" binding="choiceCustomerLabel" custom-create="true">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="14"/>
+          <text value="Выберите клиента"/>
+        </properties>
+      </component>
+      <component id="329f1" class="javax.swing.JList" binding="EmployeeList1" custom-create="true">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="f8be1" class="javax.swing.JList" binding="CustomerList2" custom-create="true">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font/>
+        </properties>
+      </component>
+      <component id="1a535" class="javax.swing.JList" binding="ProductList3" custom-create="true">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="6bc79" class="javax.swing.JButton" binding="buyAndShowCashReceiptButton" custom-create="true">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="совершить покупку и показать чек"/>
+        </properties>
+      </component>
+      <component id="a24ae" class="javax.swing.JLabel" binding="choiceProductLabel" custom-create="true">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="14"/>
+          <text value="Выберите продукт"/>
+        </properties>
+      </component>
+      <component id="9009b" class="javax.swing.JLabel" binding="choiceCountLabel" custom-create="true">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Выберите количество"/>
+        </properties>
+      </component>
+      <component id="a77cf" class="javax.swing.JSpinner" binding="spinner1" custom-create="true" default-binding="true">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="3f32d" class="javax.swing.JButton" binding="regProductButton" custom-create="true">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="регистрация продуктов"/>
+        </properties>
+      </component>
+      <component id="9bd8f" class="javax.swing.JButton" binding="regManagerButton" custom-create="true">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="регистрация менеджера"/>
+        </properties>
+      </component>
+      <component id="c2304" class="javax.swing.JLabel" binding="yearsOld18Label" custom-create="true">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Клиенту есть 18 лет?"/>
+        </properties>
+      </component>
+      <component id="9fc25" class="javax.swing.JCheckBox" binding="yearsOld18CheckBox" custom-create="true">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-2568449"/>
+          <text value="есть 18"/>
+        </properties>
+      </component>
+      <component id="9fcd6" class="javax.swing.JButton" binding="showInfoAboutStoreButton" custom-create="true">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="показать информацию о магазине"/>
+        </properties>
+      </component>
+      <component id="fa824" class="javax.swing.JLabel" binding="writeInfoLabel" custom-create="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="298" height="54"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="16"/>
+          <text value="Заполните информацию о покупке!"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
